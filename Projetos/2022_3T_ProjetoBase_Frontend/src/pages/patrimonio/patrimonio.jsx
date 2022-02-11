@@ -152,7 +152,7 @@ export const Patrimonio = () => {
 
             {produtos.map(item => 
               <div className="card" key={item.id}>
-                <img src={"http://localhost:5000/StaticFiles/Images/"+item.imagem} alt="" />
+                <img src={"http://localhost:5000/StaticFiles/Images/"+item.imagem} alt="" />s
                 <div>
                   <h4>{item.nomePatrimonio}</h4>
                   <span>Patrimônio: {item.descricao}</span>
