@@ -112,8 +112,8 @@ export const Patrimonio = () => {
               <input
                 className="input__login" 
                 type="text" 
-                name="nomePatrimonio" 
-                id="nomePatrimonio" 
+                name="codigoPatrimonio" 
+                id="codigoPatrimonio" 
                 placeholder="Código do Patrimonio"
                 value={descricao}
                 onChange={(e) => setDescricao(e.target.value)}
