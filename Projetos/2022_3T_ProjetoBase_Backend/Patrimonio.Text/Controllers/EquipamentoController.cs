@@ -31,9 +31,9 @@ namespace Patrimonio.Text.Controllers
 
             var controller = new EquipamentosController(fakeRepository.Object);
 
-            var resultado = controller.Listar();
+            var resultado = controller.GetEquipamentos();
 
-            Assert.IsType<ObjectResult>(resultado);
+            Assert.IsType<OkObjectResult>(resultado);
 
         }
 
@@ -54,9 +54,9 @@ namespace Patrimonio.Text.Controllers
 
             var controller = new EquipamentosController(fakeRepository.Object);
 
-            var resultado = controller.Alterar(equipamento1);
+            var resultado = controller.PutEquipamento(equipamento1.Id, equipamento1);
 
-            Assert.IsType<ObjectResult>(resultado);
+            Assert.IsType<NoContentResult>(resultado);
 
         }
     }
