@@ -35,6 +35,9 @@ POSSÍVEIS ERROS
 *Copiar imagens para build (imagens serão copiada com o ddl);
 
 
+*tem alterar cors;
+
+
 --na Startup
  app.UseStaticFiles(new StaticFileOptions
             {
@@ -64,6 +67,8 @@ packege: "build"
 //para o projeto rodar na raíz do domínio e não na build;
 commi e git push
 
+
+--precisa alterar os endpoints;
 
 
 DICA PROJETO FINAL
