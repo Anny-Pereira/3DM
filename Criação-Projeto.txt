@@ -1,0 +1,75 @@
+DEPLOY
+
+relação de git e servidor
+branch develop  com um subdominio
+COMPILA BUILD P RAIZ DO SERVIDOR
+
+
+
+ci - continuous integration
+cd - continuous deployment
+
+
+
+Endpoint: servicogrupo1.database.windows.net	
+logon: usuariodb
+senha: Senai@132
+
+
+
+
+
+
+PROJETO INTEGRADO
+
+1 redes e dev - BACKEND
+redes - Criar BD e Serviços de Aplicativos 
+dev - compatilha script
+      faz fork no repositório e convida o de redes
+
+
+POSSÍVEIS ERROS
+*Erro 500:
+*não pode haver comentáros na startup com caracteres especiais;
+*não pode haver comentários nos arquivos appsettings;
+*Copiar imagens para build (imagens serão copiada com o ddl);
+
+
+*tem alterar cors;
+
+
+--na Startup
+ app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles/Images")),
+           //para subir na nuvem
+                RequestPath = "/img"
+            });
+
+
+
+
+
+1 redes e dev - FRONTEND
+redes - Criar Grupo de Recursos e Serviços de Aplicativos 
+dev - cria repositório e convida o de redes
+
+npm run build
+
+
+*Integração Contínua -- atualização automatizada
+
+
+POSSÍVEIS ERROS 
+git pull no repositório com continuous integration (actions) que gera uma pasta github
+//linha 57
+packege: "build" 
+//para o projeto rodar na raíz do domínio e não na build;
+commi e git push
+
+
+--precisa alterar os endpoints;
+
+
+DICA PROJETO FINAL
+Criar uma organização no Github para todos do time terem o mesmo acesso;
