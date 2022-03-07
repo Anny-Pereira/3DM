@@ -73,3 +73,17 @@ commi e git push
 
 DICA PROJETO FINAL
 Criar uma organização no Github para todos do time terem o mesmo acesso;
+
+-Fazer navegação pelas telas do figma;
+-Focar no que está feito;
+-Focar no que está no alcance técnico;
+-Entregar o básico e depois o plus;
+-Entregar um vídeo de criação (Funcionalidades);
+-Falar das tecnologias, mas evitar mostrar o código - apenas em últimos casos;
+-Não falar dos problemas nas apresentações;
+-Fazer uma finalização;
+-Explicar funcionalidades;
+-Explicar a problemática;
+-Criar padrão de Formulário;
+-Focar nas funcionalidades não no código;
+-Buscar Dados e Estatísticas p/ apresentação;
