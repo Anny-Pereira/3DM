@@ -87,3 +87,5 @@ Criar uma organização no Github para todos do time terem o mesmo acesso;
 -Criar padrão de Formulário;
 -Focar nas funcionalidades não no código;
 -Buscar Dados e Estatísticas p/ apresentação;
+
+-Serviço personalizado - p/ inteligência artificial da Azure
