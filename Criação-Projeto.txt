@@ -89,3 +89,12 @@ Criar uma organização no Github para todos do time terem o mesmo acesso;
 -Buscar Dados e Estatísticas p/ apresentação;
 
 -Serviço personalizado - p/ inteligência artificial da Azure
+
+
+
+
+--Antes de criar projeto na azure add email institucional
+
+-- trabalhar em sintonia nas funcionalidades (front e back)
+--não esquecer de mover os cards! (será verificado nas dailys)
+--colocar carga de trabalho(horas)
